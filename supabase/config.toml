@@ -1,0 +1,17 @@
+# ============================================================
+# Supabase project configuration
+# ============================================================
+
+project_id = "employee-location-gateway"
+
+[functions.validate-link]
+verify_jwt = false
+
+[functions.validate-attendance]
+verify_jwt = false
+
+[functions.create-attendance-link]
+verify_jwt = true
+
+[functions.get-link-token]
+verify_jwt = true

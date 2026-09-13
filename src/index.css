@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    font-family: "Tajawal", "Segoe UI", "Tahoma", "Arial", sans-serif;
+    scroll-behavior: smooth;
+    direction: rtl;
+    text-align: right;
+  }
+
+  body {
+    @apply bg-slate-50 text-slate-900 antialiased;
+  }
+}

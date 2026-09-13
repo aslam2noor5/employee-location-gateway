@@ -1,0 +1,15 @@
+{
+  "name": "validate-attendance",
+  "version": "1.0.0",
+  "tasks": {
+    "serve": "supabase functions serve validate-attendance --env-file ./supabase/.env.local"
+  },
+  "compilerOptions": {
+    "allowJs": true,
+    "lib": ["deno.window"],
+    "strict": true
+  },
+  "imports": {
+    "@supabase/supabase-js": "jsr:@supabase/supabase-js@2"
+  }
+}
